@@ -22,7 +22,7 @@ calcform.txt1.value=calcform.txt1.value+n1;
 <input type=button name=btn7 value=100 onclick="displynum(btn7.value)">
 <input type=button name=addbtn value=+ onclick="displynum(addbtn.value)"><br>
 <input type=button name=eqlbtn value== onclick="txt1.value=eval(txt1.value)">
-
+<input type="reset" value="Reset" />
 
 
 </form>
