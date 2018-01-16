@@ -1,39 +1,30 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 <head>
-<title> Untitled </title>
-<script type="text/javascript">
-function changeImg(who,flag) {
-  if (flag) {
-    who.style.height='125px';  who.style.width='100px';
-  } else {
-    who.style.height='100px';  who.style.width='75px';
-  }
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+
+}
+</style>
+</head>
+<body>
+
+<img src="http://www.nova.edu/hpd/otm/pics/4fun/11.jpg" id="imgSize"
+
+<p>Click the "Try it" button to toggle between hiding and showing the DIV element:</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<script>
+function myFunction() {
+    var x = document.getElementById("imgSize");
+    if (x.style.display === "none") {
+        x.style.display = "block";
+    } else {
+        x.style.display = "none";
+    }
 }
 </script>
 
-<style type="text/css">
-
-.imgSize {
-
- height:100px; width:75px;
-
- vertical-align:bottom;
-
-}
-
-</style>
-
- 
-
-</head>
-
-<body>
-
-<img src="http://www.nova.edu/hpd/otm/pics/4fun/11.jpg" class="imgSize"
-
- onmouseover="changeImg(this,true)" onmouseout="changeImg(this,false)">
-
 </body>
-
 </html>
